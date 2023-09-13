@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS Exercise</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Disney Character</h1>
+
+      <form class="search">
+        <label class="lebel" text=""> </label>
+        <input
+          type="text"
+          placeholder="Nombre de un personaje"
+          class="inputbuscar js-inputbuscar"
+        />
+        <button class="btnBuscar js-btnBuscar">Buscar</button>
+        <button class="btnBuscar js-btLOG">LOG</button>
+      </form>
+
+      <ul class="ulcharacter js-characters"></ul>
+      <section class="container">
+        <div class="sidebar">
+          <h2>Favoritos</h2>
+          <ul class="ulcharacter js-favcharacters"></ul>
+        </div>
+      </section>
+    </main>
+    <footer> Sometimes the right path is not the easiest one. &copy Adalab 2023</footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
